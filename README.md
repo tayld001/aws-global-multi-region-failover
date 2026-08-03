@@ -32,16 +32,14 @@ Then, using AWS Global Accelerator, we will create a single global endpoint that
 7. The Secondary Region ALB forwards traffic to its EC2 instance, which serves the application during failover.
 
 ## What This Project Demonstrates
-In this hands-on project, I will:
+By the end of this project I would've demonstrated:
 
-- Deploy a styled web app in two AWS Regions
-- Create ALBs to expose the app in each Region
+- Deploying a styled web app in two AWS Regions
+- Creating ALBs to expose the app in each Region
 - Add Route 53 Health Checks for continuous monitoring
-- Configure AWS Global Accelerator with two endpoint groups
-- Test how traffic moves between Regions
-- Simulate a failure and observe automatic failover
-  
-By the end, I will have a fully operational multi-region architecture.
+- Configuring AWS Global Accelerator with two endpoint groups
+- Testing how traffic moves between Regions
+- Simulating a failure and observe automatic failover
    
 ## Technologies Used
 - AWS Global Accelerator - Global routing & failover
@@ -51,7 +49,7 @@ By the end, I will have a fully operational multi-region architecture.
 - Amazon Route 53 Health Checks - Regional availability monitoring
   
 ## ⭐ Deployment Guide
-Follow the complete build documentation:
+Each guide includes AWS console screenshots, configuration details, and validation steps.
 
 1. [Build Primary Region](docs/01-build-primary-region.md)
 2. [Build Secondary Region](docs/02-build-secondary-region.md)
