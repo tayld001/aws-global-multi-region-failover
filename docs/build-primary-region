@@ -1,0 +1,17 @@
+In this section, you will deploy the first version of the web application in your Primary Region (for example, us-east-2). This includes creating the networking, launching the EC2 instance, and exposing it through an Application Load Balancer.
+
+Before you begin: Select the Primary Region
+
+At the very top-right of the AWS Console:
+
+1. Click the region dropdown
+- Select your Primary Region
+Everything you create in the next steps will now belong to this region.
+
+Note: You may choose any AWS Region for your Primary Region, but once selected, make sure you use the same region consistently for all resources in this part of the project.
+
+### Step 1: Create the VPC
+- Open the VPC Console → Create VPC
+- Choose VPC Only.
+- Name it: multi-region-vpc-a
+- CIDR block: 10.10.0.0/16
