@@ -1,4 +1,4 @@
-# AWS Multi-REgion Web Application with Global Accelerator
+# AWS Multi-Region Web Application with Global Accelerator
 A highly available web application deployed across two AWS Regions using AWS Global Accelerator, Application Load Balancers, and Amazon EC2 to provide automatic regional failover and improved availability.
 
 ### Scenario
