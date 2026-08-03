@@ -31,6 +31,17 @@ In this hands-on project, I will:
   
 By the end, I will have a fully operational multi-region architecture.
 
+## Architecture
+<img width="978" height="698" alt="image" src="https://github.com/user-attachments/assets/a08a7242-a2b8-401d-9b7f-5fcb54f187fa" />
+
+1. Users access the application using the Global Accelerator DNS or static IP.
+2. AWS Global Accelerator receives the request at the nearest AWS edge location.
+3. Global Accelerator forwards traffic to the Primary Region endpoint group.
+4. The Primary Region ALB routes the request to the EC2 instance hosting the application.
+5. Route 53 Health Checks continuously monitor the Primary ALB for availability.
+6. If the Primary Region becomes unhealthy, Global Accelerator automatically shirts traffic to the Secondary Region.
+7. The Secondary Region ALB forwards traffic to its EC2 instance, which serves the application during failover.
+   
 ## Technologies Used
 AWS Global Accelerator - Global routing & failover
 Elastic Load Balancing (ALB) - Regional traffic distribution
