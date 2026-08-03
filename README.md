@@ -49,3 +49,12 @@ By the end, I will have a fully operational multi-region architecture.
 - Amazon EC2 - Web application hosting
 - Amazon VPC - Networking, subnets, routing
 - Amazon Route 53 Health Checks - Regional availability monitoring
+## Deployment Guide
+
+⭐ Follow the complete build documentation:
+
+1. [Build Primary Region](docs/01-build-primary-region.md)
+2. [Build Secondary Region](docs/02-build-secondary-region.md)
+3. [Configure Global Accelerator](docs/03-configure-global-accelerator.md)
+4. [Failover Testing](docs/04-failover-testing.md)
+5. [Cleanup](docs/05-cleanup.md)
