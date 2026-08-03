@@ -1,4 +1,4 @@
-In this section, I will deploy the same web application in the secondary region (us-west-2). This will provide regional redundancy, which means the app stays available even if the primary region becomes unavailable.The setup closely mirrors Region A, but there are minor changes such as naming and the Region B HTML file.
+In this section, I will deploy the same web application in the secondary region (us-west-2). This will provide regional redundancy, which means the app stays available even if the primary region becomes unavailable. The setup closely mirrors Region A, but there are minor changes such as naming and the Region B HTML file.
 
 # Change Regions
 At the top-right of the AWS Console:
