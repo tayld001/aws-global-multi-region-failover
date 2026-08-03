@@ -5,7 +5,7 @@ Before beginning: Select the Primary Region
 At the very top-right of the AWS Console:
 
 1. Click the region dropdown
-- Select your Primary Region
+- Select your Primary Region.
 Everything you create in the next steps will now belong to this region.
 
 Note: Choose any AWS Region for the Primary Region, but once selected, make sure to use the same region consistently for all resources in this part of the project.
