@@ -1,4 +1,5 @@
-## Overview of Project
+# AWS Multi-REgion Web Application with Global Accelerator
+A highly available web application deployed across two AWS Regions using AWS Global Accelerator, Application Load Balancers, and Amazon EC2 to provide automatic regional failover and improved availability.
 
 ### Scenario
 A global learning platform hosts a simple public web application that users access daily. Right now, this application runs in only one AWS Region, behind a single Application Load Balancer and one EC2 instance.
@@ -30,7 +31,7 @@ Then, using AWS Global Accelerator, we will create a single global endpoint that
 6. If the Primary Region becomes unhealthy, Global Accelerator automatically shirts traffic to the Secondary Region.
 7. The Secondary Region ALB forwards traffic to its EC2 instance, which serves the application during failover.
 
-### About the Project
+### What This Project Demonstrates
 In this hands-on project, I will:
 
 - Deploy a styled web app in two AWS Regions
